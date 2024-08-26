@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Game Form</title>
+    <link rel="stylesheet" href="practice.css" />
+</head>
+<body>
+	<form>
+		<h1>ASPHALT GAMING</h1>
+		<p>Please fill in the form to register Asphalt  gaming:</p>
+		
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		
+		<label for="car-model">Car Model:</label>
+		<select id="car-model" name="car-model">
+            <option value="">(select one)</option>
+            <option value="Buggati">Buggati</option>
+            <option value="Supra">Supra</option>
+			<option value="Ferrari">Ferrari</option>
+			<option value="Porsche">Porsche</option>
+			<option value="Lamborghini">Lamborghini</option>
+			<option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+		</select>
+		
+		<label for="experience">EXPERIENCE:</label>
+        <input type="radio" id="Beginner" name="experience" value="Beginner">
+		<label for="beginner">Beginner</label>
+        <input type="radio" id="intermediate" name="experience" value="intermediate">
+        <label for="intermediate">Intermediate</label>
+        <input type="radio" id="Advanced" name="experience" value="Advanced">
+        <label for="advanced">Advanced</label>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
